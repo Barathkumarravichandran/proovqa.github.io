@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Tw Cen MT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Tw Cen MT'), url('../font/fontscorecomttwcenmt.woff') format('woff');
+}
+    
+
+body{
+    font-family: 'Tw Cen MT';
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    z-index: 999999;
+    margin: auto;
+    width: 100%;
+    padding: 0 2.5%;
+}
+.pq_nav{
+    background-color: transparent;
+}
+.f_green{
+    color: #33cc99;
+}
+.nav-item{
+    padding: 0 1.5rem;
+    font-size: 22px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.header_nav_dropdown,.nav_dropdown_items{
+    background-color: #035586;
+}
+.nav_dropdown_items:hover{
+    background-color: #035586;
+}
+.form_search_layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.dropdown-toggle::after {
+    vertical-align: 0.1em;
+    border-top: 0.4em solid yellow;
+    border-right: 0.2em solid transparent;
+    border-left: 0.2em solid transparent;
+}
+/* section 1 */
+.hero-container{
+    padding: 15% 5%;
+}
+.hero_section{
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+}
+.banner_title_main{
+    color: #006699;
+    font-size: 58px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.poc{
+    font-size: 72px;
+}
+.banner_sub_heading{
+    font-size: 30px;
+    line-height: 2.7;
+    font-weight: 500;
+}
+.hero_content{
+    color: #333333;
+    font-size: 22px;
+}
+.btn-hero,.btn-hero:focus{
+    background-image: url(../images/button.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 2rem 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    box-shadow: 0px;
+    cursor: pointer;
+    border: 0;
+}
+
+/* section 2 */
+
+.section_home_service{
+    background-image: url(../images/bg2.png);
+    background-size: contain;
+    background-position: bottom;
+    z-index: 99999;
+    height: 105vh;
+    padding: 0 3%;
+}
+.section_two_subheading,.sec_2_content{
+    color: #333333;
+    font-weight: 600;
+    font-size: 24px;
+}
+.home_service_container{
+    padding: .5rem 2rem;
+    line-height: 1.8;
+}
+.sec_2_title{
+    color: #006699;
+    font-size: 56px;
+    font-weight: 500;
+}
+.sec_2_content{
+    font-size: 20px;
+    font-weight: 500;
+}
+.service_main_layout{
+    padding-left: 10%;
+}
+.service_card{
+    box-shadow: none;
+}
+.card_img_top{
+    width: 100px;
+    height: auto;
+}
+.card_title{
+    color: #006699;
+    font-weight: 900;
+    font-size: 22px;
+}
+.card_text{
+    color:#999999;
+    font-size: 18px;
+}
+/* section 3 Process */
+
+.section_3_process{
+    background-image: url(../images/product_bg.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 3%;
+    position: relative;
+    height: 135vh;
+}
+.section_3_subheading{
+    color: #fff;
+    font-size: 26px;
+}
+.section_3_title{
+    color: #1b4746;
+    font-size: 56px;
+    font-weight: 500;
+}
+.sec_3_container{
+    line-height: 1.2;
+    top:3.5rem;
+    position: absolute;
+}
+.process_image_container{
+    position: relative;
+    padding: 2.2% 7%;
+}
+.process_image{
+    width: 100%;
+}
+/* A Complete Platform */
+.section_4_c_platform{
+    padding: 3% 0;
+}
+.c_platform_image{
+    width: 98%;
+}
+.platform_content_layout{
+    line-height: 1.5;
+}
+.platform_heading{
+    color: #999999;
+    font-size: 28px;
+}
+.platform_content{
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+.platform_list_heading{
+    color: #42b691;
+    font-weight: 500;
+}
+.platform_list{
+    padding-left: 2rem;
+    padding-top: .5rem;
+}
+.platform_list_item{
+    font-size: 18px;
+    padding: .2rem 0;
+    color: #333333;
+}
+/* Footer */
+.main_footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+}
+.footer_container{
+    width: 95%;
+    margin: auto;
+}
+.f-container{
+    align-items: center;
+    padding: 2.5% 0;
+}
+.footer-left-layout{
+    line-height: 1.8
+}
+.footer-left-content{
+    color: #fff;
+    font-weight: 500;
+}
+.footer-right-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.f_right_title{
+    font-weight: 900;
+    font-size: 16px;
+}
+.footer-right-content{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.footer_image{
+    width: 95%;
+    margin: auto;
+}
+.footer_logo{
+    width: 70%;
+}
